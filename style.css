@@ -12,7 +12,6 @@
     font-weight: normal;
     font-style: normal;
   }
-     
    [class^="icon-"]:before, [class*=" icon-"]:before {
     font-family: "fontello";
     font-style: normal;
@@ -28,7 +27,6 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-   
   .icon-gplus:before { content: '\e800'; } 
   .icon-dribbble:before { content: '\e801'; } 
   .icon-pinterest:before { content: '\e802'; } 
@@ -181,11 +179,11 @@ main{
 #x6{background-image: url('assets/image/6.png');}
 #x7{background-image: url('assets/image/7.png');}
 #x8{background-image: url('assets/image/8.png');}
-#x9{background-image: url('assets/image/9.png');}
+#x9{background-image: url('assets/image/13.png');}
 #x10{background-image: url('assets/image/10.png');}
 #x11{background-image: url('assets/image/11.png');}
 #x12{background-image: url('assets/image/12.png');}
-#x13{background-image: url('assets/image/13.png');}
+#x13{background-image: url('assets/image/9.png');}
 .line-across-top{
     height: 1px;
     width: 40%;
@@ -227,16 +225,13 @@ main{
 .slider-controls ul li{
     height: 6px;
     display: inline-block;
-    margin-right: 1px;
+    margin-right: 3px;
 }
-
-
 .slider-controls-item a{
     width: 6px;
     height: 6px;
     display: inline-block; 
     background-color: #e4e9eb;
-
 }
 .slider-controls-item a:hover{
     background-color: #8b8784;
@@ -274,7 +269,7 @@ main{
     display: inline-block;
     vertical-align: top;
 }
-#img-smith{
+#main-img{
     background-image: url("assets/image/image-smith.png");
 }
 .part-right h1{
@@ -289,7 +284,7 @@ main{
     font-weight: normal;
 
  }
-.about-smith{
+.about{
     padding-bottom: 38px;
     padding-top: 12px;
     font-size: 9pt;  
@@ -302,7 +297,7 @@ main{
 }
 .social-group li{
     display: inline-block;
-    margin: -1.5px;
+    /**margin: -1.5px;**/
 }
 .social-icon{
     display: flex;
@@ -337,12 +332,12 @@ main{
 .get-in-touch{
     background-color:#323232;
     color: #e0e0e0;
-    padding: 13px 0px;
+    padding: 14px 0px;
 }
 .get-in-touch-wrapper{
     max-width: 960px;
     margin: 0px auto;
-    padding: 44px 90px 50px;
+    padding: 44px 90px 46px;
     border-bottom: 1px solid #2b2b2b;
     border-top: 1px solid #2b2b2b;
     text-align: center;
@@ -373,22 +368,19 @@ main{
     display: inline-block;
     vertical-align: top;
     text-align: center;
-    margin-top: -5px;
+    margin-top: -6px;
 }
 .get-in-touch-part-right-description{
     text-align: justify;
     font-size: 9pt;  
-    line-height: 170%;
+    line-height: 183%;
     font-family: Lato;
     padding-bottom: 40px;
-}
-.get-in-touch-part-right-description span{
-    font-weight: bold;
 }
 .get-in-touch-part-right-contacts{
     text-align: justify;
     font-size: 9pt;  
-    line-height: 165%;
+    line-height: 157%;
     font-family: Lato;
 }
 .get-in-touch-part-left{
@@ -412,7 +404,7 @@ textarea#message{
 }
 #button-send{
     background-color: #2eb398;
-    padding: 14px 26px;
+    padding: 13px 26px;
     color:  #e0e0e0;
     border: none;
     text-transform: uppercase;
@@ -452,17 +444,15 @@ textarea#message{
 
 
 
-footer{
-    margin: 0 auto;
-    background-color: #323232;
-    margin: 0 auto;
+.footer{
     background-color: #222222;
 }
-footer p{
+.footer p{
     padding: 16px 0px 15px 39px;
     font-size: 9pt;  
     line-height: 165%;
     font-family: Lato;
     max-width: 1020px;
     color: #454545;
+    margin: 0 auto;
 }
